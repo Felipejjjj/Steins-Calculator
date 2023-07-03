@@ -1,0 +1,25 @@
+{
+    "name": "Steins Calculator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/services/index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "NODE_ENV=production node src/services/index.js",
+        "dev": "nodemon src/services/index.js",
+        "db:up": "node src/database/load.js",
+        "db:down": "del src\\database\\db.sqlite"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "express-async-errors": "^3.1.1",
+        "morgan": "^1.10.0",
+        "nodemon": "^1.14.9",
+        "sqlite-async": "^1.2.0"
+    }
+}

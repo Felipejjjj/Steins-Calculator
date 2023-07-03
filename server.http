@@ -1,0 +1,2 @@
+### Read Specific Curriculum
+GET http://localhost:3000/history
